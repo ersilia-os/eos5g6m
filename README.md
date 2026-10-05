@@ -2,7 +2,7 @@
 
 GLACIER encodes molecules into 512 features using a student-teacher arrangement in which a lightweight student learns to reproduce representations from larger multimodal teachers. Nguyen and colleagues designed it so that the expressive power of heavy foundation models becomes available at a fraction of the inference cost, with the student trained to match teacher embeddings rather than to predict properties. The embedding is task-independent, and its dimensions carry no interpretable chemical meaning individually.
 
-This model was incorporated on 2026-08-03.Last packaged on 2026-08-03.
+This model was incorporated on 2026-08-03.Last packaged on 2026-10-05.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 512 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `26`
 - **Environment Size (Mb):** `1867`
-- **Image Size (Mb):** `1863.77`
+- **Image Size (Mb):** `1857.13`
 
 **Computational Performance (seconds):**
-- 10 inputs: `39.09`
-- 100 inputs: `29.49`
-- 10000 inputs: `384.8`
+- 10 inputs: `34.22`
+- 100 inputs: `24.72`
+- 10000 inputs: `390.63`
 
 ### References
 - **Source Code**: [https://github.com/eemokey/glacier](https://github.com/eemokey/glacier)
