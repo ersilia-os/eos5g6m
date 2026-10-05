@@ -39,7 +39,7 @@ Source Code: https://github.com/eemokey/glacier
 License: MIT
 Contributor: TiagoJanela
 Incorporation Date: '2026-08-03'
-Last Packaging Date: '2026-08-03'
+Last Packaging Date: '2026-10-05'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5g6m.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos5g6m
@@ -48,9 +48,9 @@ Docker Architecture:
   - ARM64
 Model Size: 26.0
 Environment Size: 1867.0
-Image Size: 1863.77
-Computational Performance 1: 39.09
-Computational Performance 2: 24.01
-Computational Performance 3: 29.49
-Computational Performance 4: 91.67
-Computational Performance 5: 384.8
+Image Size: 1857.13
+Computational Performance 1: 34.22
+Computational Performance 2: 22.2
+Computational Performance 3: 24.72
+Computational Performance 4: 91.57
+Computational Performance 5: 390.63
