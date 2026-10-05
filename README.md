@@ -59,7 +59,7 @@ _10 of 512 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/eemokey/glacier](https://github.com/eemokey/glacier)
-- **Publication**: [https://doi.org/10.48550/arXiv.2606.11382](https://doi.org/10.48550/arXiv.2606.11382)
+- **Publication**: [https://doi.org/10.1145/3770855.3819032](https://doi.org/10.1145/3770855.3819032)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2026`
 - **Ersilia Contributor:** [TiagoJanela](https://github.com/TiagoJanela)
