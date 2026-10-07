@@ -1,6 +1,6 @@
 # GLACIER Molecular Embeddings
 
-GLACIER encodes molecules into 512 features using a student-teacher arrangement in which a lightweight student learns to reproduce representations from larger multimodal teachers. Nguyen and colleagues designed it so that the expressive power of heavy foundation models becomes available at a fraction of the inference cost, with the student trained to match teacher embeddings rather than to predict properties. The embedding is task-independent, and its dimensions carry no interpretable chemical meaning individually.
+Encodes a molecule into 512 features by passing it through three encoders at once, a message-passing network over the graph, a transformer over the SMILES string and a multilayer perceptron over physicochemical descriptors, then fusing the three with a Finsler geometry-aware module. Nguyen and colleagues pretrained the encoders on 100,000 molecules sampled from Enamine REAL and distilled the MiniMol and MolFormer teachers into them by contrastive learning, so a compact model keeps pace with far heavier ones. Dimensions carry no individual chemical meaning.
 
 This model was incorporated on 2026-08-03.Last packaged on 2026-10-05.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-08-03.Last packaged on 2026-10-05.
 ### Output
 - **Output Dimension:** `512`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** 512 features encoding molecular structure from a student-teacher foundation model.
+- **Interpretation:** 512 fused features combining graph, SMILES and descriptor views of the molecule.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
