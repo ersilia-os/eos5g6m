@@ -2,13 +2,14 @@ Identifier: eos5g6m
 Slug: glacier-embeddings
 Status: Ready
 Title: GLACIER Molecular Embeddings
-Description: Encodes a molecule into 512 features by passing it through three encoders
-  at once, a message-passing network over the graph, a transformer over the SMILES
-  string and a multilayer perceptron over physicochemical descriptors, then fusing
-  the three with a Finsler geometry-aware module. Nguyen and colleagues pretrained
-  the encoders on 100,000 molecules sampled from Enamine REAL and distilled the MiniMol
-  and MolFormer teachers into them by contrastive learning, so a compact model keeps
-  pace with far heavier ones. Dimensions carry no individual chemical meaning.
+Description: Encodes a molecule into 512 features by passing it through three 
+  encoders at once, a message-passing network over the graph, a transformer over
+  the SMILES string and a multilayer perceptron over physicochemical 
+  descriptors, then fusing the three with a Finsler geometry-aware module. 
+  Nguyen and colleagues pretrained the encoders on 100,000 molecules sampled 
+  from Enamine REAL and distilled the MiniMol and MolFormer teachers into them 
+  by contrastive learning, so a compact model keeps pace with far heavier ones. 
+  Dimensions carry no individual chemical meaning.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +23,8 @@ Output:
   - Value
 Output Dimension: 512
 Output Consistency: Fixed
-Interpretation: 512 fused features combining graph, SMILES and descriptor views of
-  the molecule.
+Interpretation: 512 fused features combining graph, SMILES and descriptor views 
+  of the molecule.
 Tag:
   - Descriptor
   - Embedding
@@ -40,7 +41,7 @@ License: MIT
 Contributor: TiagoJanela
 Incorporation Date: '2026-08-03'
 Last Packaging Date: '2026-10-05'
-Release: v1.0.0
+Release: v1.0.1
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5g6m.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos5g6m
 Docker Architecture:
