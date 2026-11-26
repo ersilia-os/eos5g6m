@@ -45,7 +45,7 @@ _10 of 512 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5g6m](https://hub.docker.com/r/ersiliaos/eos5g6m)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5g6m.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5g6m.zip)
 - **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos5g6m_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos5g6m_v1.sif)
 
@@ -55,9 +55,9 @@ _10 of 512 columns are shown_
 - **Image Size (Mb):** `538.19`
 
 **Computational Performance (seconds):**
-- 10 inputs: `32.04`
-- 100 inputs: `23.17`
-- 10000 inputs: `323.79`
+- 10 inputs: `32.99`
+- 100 inputs: `23.07`
+- 10000 inputs: `326.44`
 
 ### References
 - **Source Code**: [https://github.com/eemokey/glacier](https://github.com/eemokey/glacier)
