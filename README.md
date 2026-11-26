@@ -50,8 +50,8 @@ _10 of 512 columns are shown_
 - **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos5g6m_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos5g6m_v1.sif)
 
 ### Resource Consumption
-- **Model Size (Mb):** `26`
-- **Environment Size (Mb):** `1867`
+- **Model Size (Mb):** `47`
+- **Environment Size (Mb):** `1873`
 - **Image Size (Mb):** `1857.13`
 
 **Computational Performance (seconds):**
