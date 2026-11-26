@@ -44,13 +44,15 @@ Last Packaging Date: '2026-11-26'
 Release: v1.0.2
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5g6m.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos5g6m
-Docker Architecture: AMD64
+Docker Architecture:
+  - AMD64
+  - ARM64
 Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos5g6m_v1.sif
 Model Size: 47.0
 Environment Size: 1873.0
 Image Size: 538.19
-Computational Performance 1: 32.04
-Computational Performance 2: 21.92
-Computational Performance 3: 23.17
-Computational Performance 4: 76.32
-Computational Performance 5: 323.79
+Computational Performance 1: 32.99
+Computational Performance 2: 22.97
+Computational Performance 3: 23.07
+Computational Performance 4: 74.3
+Computational Performance 5: 326.44
